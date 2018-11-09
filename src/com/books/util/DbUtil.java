@@ -4,11 +4,12 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 
 /**
- * @author lyc
- * 
- * 连接数据库
- *
- */
+* @ClassName: DbUtil
+* @Description: 连接数据库
+* @author 李勇超
+* @date 2018年11月9日下午4:15:38
+*
+*/
 public class DbUtil {
 	
 	public Connection getCon() throws Exception{
